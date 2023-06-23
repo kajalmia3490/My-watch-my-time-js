@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* main */
+.container {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 150px;
+    background-color: gainsboro;
+    border: 3px solid tomato;
+    border-radius: 10px;
+}
+
+.watch {
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+/* button group */
+.btn-group {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.stop, .start, .reset {
+    margin-left: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.start:active, .stop:active, .reset:active {
+    background-color: tomato;
+}
+
+.start {
+    margin-left: 0;
+    background-color: green;
+    color: white;
+}
+
+.stop {
+    background-color: red;
+    color: white;
+}
+
+.reset {
+    background-color: gainsboro;
+}

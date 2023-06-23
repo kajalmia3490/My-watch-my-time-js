@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch</title>
+
+    <!-- css file import -->
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="watch">
+                <hr>
+                <h1>
+                    <hour class="hr" id="hr">00 :</hour>
+                    <minute class="min" id="min">00</minute>
+                    <hr>
+                    <second class="sec" id="sec">00</second>
+                </h1>
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- button group -->
+    <div class="btn-group">
+
+        <button class="start" id="start" onclick="startButtonClick()">
+            Start
+        </button>
+
+        <button class="stop" onclick="stopButtonClick()">
+            Stop
+        </button>
+
+        <button class="reset" onclick="resetButtonClick()">
+            Reset
+        </button>
+
+    </div>
+
+    <!-- js file import -->
+    <script src="../js/app.js"></script>
+    <script src="../js/btn_func.js"></script>
+</body>
+
+</html>
